@@ -23,8 +23,8 @@ const Contact = () => {
             </li>
             <li>
                 <i className="far fa-envelope"></i>
-                <CopyToClipboard text="jbouiges@gmail.com">
-                <span className="clickInput" onClick={() => {alert('Email copié');}}>jbouiges@gmail.com</span>
+                <CopyToClipboard text="bgate@gmail.com">
+                <span className="clickInput" onClick={() => {alert('Email copié');}}>bgate@gmail.com</span>
                 </CopyToClipboard>
             </li>
         </ul>
