@@ -1,14 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 const Navigation = () => {
     return (
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
-                    <img src="./media/billGates.jpg" alt="profil-pic"/>
+                    <img src="./media/jaja.jpeg" alt="profil-pic"/>
                     <h3>
-                        Le créateur de windows
+                        Jade BOUIGES
                     </h3>
                 </div>
             </div>
@@ -46,16 +47,18 @@ const Navigation = () => {
         <div className="socialNetwork">
             <ul>
                 <li>
-                    <a href="https://www.google.com" target="blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/jade-bouiges-developpeur-web-mobile-alternance/" target="blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.google.com" target="blank" rel="noopener noreferrer"><i className="fab fa-git"></i></a>
+                    <a href="https://github.com/Dianavi22" target="blank" rel="noopener noreferrer"><i className="fab fa-git"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.google.com" target="blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                <CopyToClipboard text="jbouiges@gmail.com">
+                    <a onClick={() => {alert('Email copié');}} rel="noopener noreferrer"><i className="far fa-envelope"></i></a>
+                    </CopyToClipboard>
                 </li>
                 <li>
-                    <a href="https://www.google.com" target="blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a>
+                    <a href="./media/CV.pdf" target="blank" rel="noopener noreferrer"><i className="fa-solid fa-file-pdf"></i></a>
                 </li>
             </ul>
             <div className="signature">

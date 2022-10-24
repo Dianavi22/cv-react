@@ -3,19 +3,25 @@ import React from 'react';
 const Experience = () => {
     return (
         <div className="experience">
-            <h3>Expérience</h3>
+
+<h3>Expérience</h3>
             <div className="exp-1">
-            <h4>Directeur Technique - Apple</h4>
-            <h5>2018 - 2020</h5>
-            <p>Alors que Tom Hardy en est à sa troisième tentative d'autolyse, et que Riz Ahmed n'est toujours pas sorti de la maison de repos où il séjourne, le spectateur pouvait légitimement penser, à la sortie de la salle de cinéma projetant l'immondice Venom, que Sony rimait dorénavant avec sodomie.Et d'attendre avec beaucoup de méfiance cette deuxième tentative d'exploitation d'un Spider-verse d'ores et déjà orphelin.Sauf que le miracle a cette fois-ci bel et bien eu lieu. Car Spider-Man : New Generation, c'est un concentré du meilleur de la culture comics qui aurait été portée tel quel à l'écran, en profitant de parti pris tranchés, parfois casse-gueule mais presque toujours justes et pertinents.</p>
+            <h4>Apprentie développeuse - Ministère de l'intérieur</h4>
+            <h5>2022 - 2023</h5>
+            <p>Mes missions au sein du ministère de l'intérieur consistent en premier lieu à créer une application afin que les utilisateurs puissent s'organiser pour les différentes activités annuelles, cette application sera faire en reactJS avec les données en SQL, aussi je devrai utiliser Joumelas afin de corriger quelques bugs et de rajouter des features sur l'intranet</p>
+            </div>
+            
+            <div className="exp-2">
+            <h4>Apprentie développeuse - Spie batignolles</h4>
+            <h5>2019 - 2021</h5>
+            <p>Lors de mon alternance chez spie batignolles j'avais 2 missions principales : la programmation du site web (<a href="https://www.spiebatignollesimmobilier.fr/" target="_blank">spiebatignollesimmobilier.fr</a>) et de son back office en C#, HTML/CSS, et la base de données en SQL ainsi que toute la gestion ds demandes d'ajout de fonctionnalités et de résolution de bugs. Et la gestion des comptes pour l'outil DocuSign, ainsi qu la formation des diférents utilisateurs.</p>
         
             </div>
-            <div className="exp-2">
-            <h4>Directeur Technique - Apple</h4>
-            <h5>2018 - 2020</h5>
-            <p>Alors que Tom Hardy en est à sa troisième tentative d'autolyse, et que Riz Ahmed n'est toujours pas sorti de la maison de repos où il séjourne, le spectateur pouvait légitimement penser, à la sortie de la salle de cinéma projetant l'immondice Venom, que Sony rimait dorénavant avec sodomie.Et d'attendre avec beaucoup de méfiance cette deuxième tentative d'exploitation d'un Spider-verse d'ores et déjà orphelin.Sauf que le miracle a cette fois-ci bel et bien eu lieu. Car Spider-Man : New Generation, c'est un concentré du meilleur de la culture comics qui aurait été portée tel quel à l'écran, en profitant de parti pris tranchés, parfois casse-gueule mais presque toujours justes et pertinents.</p>
-           
-          
+            <div className="exp-3">
+            <h4>Standardiste - Office notariale de Sannois</h4>
+            <h5>2019</h5>
+            <p>En tant que standardiste, je devais principallement m'occuper de la clientelle : recevoir les clients, répondre aux appels, transférr les mails, ... Mais je devais aussi trier le courrier et orienter les différentes devmandes vers les services appropriés.</p>
+        
             </div>
         </div>
     );

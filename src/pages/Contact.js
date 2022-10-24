@@ -17,40 +17,36 @@ const Contact = () => {
             </li>
             <li>
                 <i className="fas fa-mobile-alt"></i>
-                <CopyToClipboard text="0123456789">
-                <span className="clickInput" onClick={() => {alert('Téléphone copié');}}>01 23 45 67 89</span>
+                <CopyToClipboard text="0663370152">
+                <span className="clickInput" onClick={() => {alert('Téléphone copié');}}>06 63 37 01 52</span>
                 </CopyToClipboard>
             </li>
             <li>
                 <i className="far fa-envelope"></i>
-                <CopyToClipboard text="bgate@gmail.com">
-                <span className="clickInput" onClick={() => {alert('Email copié');}}>bgate@gmail.com</span>
+                <CopyToClipboard text="jbouiges@gmail.com">
+                <span className="clickInput" onClick={() => {alert('Email copié');}}>jbouiges@gmail.com</span>
                 </CopyToClipboard>
             </li>
         </ul>
     </div>
     <div className="socialNetwork">
         <ul>
-            <a href="http://www.google.com" target="_blank"
+            <a href="https://github.com/Dianavi22" target="_blank"
             rel="noopener norenferrer">
                 <h4>Github</h4>
-                <i className="fab fa-linkedin"></i>
-                </a>
-                <a href="http://www.google.com" target="_blank"
-            rel="noopener norenferrer">
-                <h4>Linkedin</h4>
                 <i className="fab fa-github"></i>
                 </a>
-                <a href="http://www.google.com" target="_blank"
+                <a href="https://www.linkedin.com/in/jade-bouiges-developpeur-web-mobile-alternance/" target="_blank"
+            rel="noopener norenferrer">
+                <h4>Linkedin</h4>
+                <i className="fab fa-linkedin"></i>
+                </a>
+                {/* <a href="http://www.google.com" target="_blank"
             rel="noopener norenferrer">
                 <h4>Twitter</h4>
                 <i className="fab fa-twitter"></i>
-                </a>
-                <a href="http://www.google.com" target="_blank"
-            rel="noopener norenferrer">
-                <h4>CodePen</h4>
-                <i className="fab fa-codepen"></i>
-                </a>
+                </a> */}
+                <a href="./media/CV.pdf" target="blank" rel="noopener noreferrer"><h4>CV</h4><i className="fa-solid fa-file-pdf"></i></a>
         </ul>
     </div>
 </div>

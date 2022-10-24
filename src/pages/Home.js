@@ -7,10 +7,10 @@ const Home = () => {
             <Navigation/>
             <div className="homeContent">
                 <div className="content">
-                    <h1>Kirbo pepito</h1>
-                    <h2>Developpeur BE-FE</h2>
+                    <h1>Jade BOUIGES</h1>
+                    <h2>Apprentie développeuse</h2>
                     <div className="pdf">
-                        <a href=".media/CV.pdf" target="-blank">Télécharger CV</a>
+                        <a href="./media/CV.pdf" target="_blank">Télécharger CV</a>
                     </div>
                 </div>
             </div>
