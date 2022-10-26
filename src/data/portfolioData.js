@@ -1,56 +1,56 @@
 export const portfolioData = [
   {
     id: 1,
-    name: 'Nature Emoi',
-    languages: ['Android','Kotlin', 'BDD','Tous'],
-    languagesIcons: ['fa-brands fa-android','fa-solid fa-mobile','fa-solid fa-database'],
-    source: 'https://github.com/Dianavi22/NaturEmoi',
-    info: 'Nature etmoi est une application permettant à une personne de collectionner des plantes (dans le cas de jardiniers ou de passionnés), il est également possible de rajouter des plantes à sa collection en en important directement dans la base de donées, de les mettre en favoris et de les supprimer',
-    picture: './media/project1.png'
+    name: 'ipsum.com',
+    languages: ['javascript','css'],
+    languagesIcons: ['fab fa-js','fab fa-css3-alt'],
+    source: 'http://www.github.com',
+    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    picture: './media/project1.JPG'
   },
   {
     id: 2,
-    name: 'D&Débutants',
-    languages: ['HTML/CSS','JSON','Tous'],
-    languagesIcons: ['fa-brands fa-html5','fa-brands fa-css3-alt',''],
-    source: 'https://github.com/Dianavi22/DDebutants',
-    info: 'D&Débutant est un petit site web permettant aux joueurs et aux maîtres du jeu de donjons et dragons de se renseigner sur les bases de ce jeu de rôles, en accèdant aux infomations de bases commes les classes, les states, et les quelques règles primordiales',
-    picture: './media/project2.png'
+    name: 'lorem.fr',
+    languages: ['javascript','react'],
+    languagesIcons: ['fab fa-js','fab fa-react'],
+    source: 'http://www.github.com',
+    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    picture: './media/project2.JPG'
   },
   {
     id: 3,
-    name: 'Sneuk',
-    languages: ['C#','Unity','Tous'],
-    languagesIcons: ['fa-solid fa-code','fa-brands fa-unity'],
-    source: 'https://github.com/Dianavi22/Sneuk',
-    info: 'Un jeu de plateformes simple où il faut aller de niveaux en niveaux. Le joueur contrôle un petit personnage animé dans un monde en pixelart. Les paramètres sont règlables et le joueur a même accès à un main menu',
-    picture: './media/project3.png'
+    name: 'dolorset.fr',
+    languages: ['javascript','php','css'],
+    languagesIcons: ['fab fa-js','fab fa-php','fab fa-css3-alt'],
+    source: 'http://www.github.com',
+    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    picture: './media/project3.JPG'
   },
   {
     id: 4,
-    name: 'Monnaie Android',
-    languages: ['Android','java','Tous'],
-    languagesIcons: ['fa-solid fa-mobile','fa-brands fa-android','fa-brands fa-java'],
-    source: 'https://github.com/Dianavi22/MonnaieAndroid',
-    info: 'Monnaie Android est une application de conversion de monnaie en euros. Un utilisateur doit entrer le pays souhaité, entrer le montant dans la monnaie locale puis la conversion se fait toute seule',
-    picture: './media/project4.png'
+    name: 'laboriosam.fr',
+    languages: ['javascript','php','react'],
+    languagesIcons: ['fab fa-js','fab fa-php','fab fa-react'],
+    source: 'http://www.github.com',
+    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    picture: './media/project4.JPG'
   },
   {
     id: 5,
-    name: 'Projet GSB',
-    languages: ['C#','Winform','Tous'],
-    languagesIcons: ['fa-solid fa-code', 'fa-solid fa-database'],
-    source: 'https://github.com/Dianavi22/PPE-2020',
-    info: 'Le projet GSB est le projet de la fin de ma première année de BTS. Il s\'agit d\'une application pour médecins et RH. Les médecins peuvent demander des mutations qui sont ensuite gérées par les ressources humaines.',
-    picture: './media/project5.png'
+    name: 'repudiante.com',
+    languages: ['javascript','css'],
+    languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
+    source: 'http://www.github.com',
+    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    picture: './media/project5.JPG'
   },
   {
     id: 6,
-    name: 'Pygamon',
-    languages: ['python','Tous'],
-    languagesIcons: ['fa-brands fa-python'],
-    source: 'https://github.com/Dianavi22/Pygamon',
-    info: 'Pygamon est un jeu vidéo fait sous python où l\'on incarne un personnage qui peut se balader dans une ville, rentrer dans une maison un peu comme pokémon.',
-    picture: './media/project6.png'
+    name: 'test.io',
+    languages: ['javascript','react', 'css'],
+    languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
+    source: 'http://www.github.com',
+    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    picture: './media/project6.JPG'
   },
 ]
