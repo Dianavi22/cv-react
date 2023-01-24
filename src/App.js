@@ -1,6 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // import './App.css';
 import Home from './pages/Home';
 import Knowledges from './pages/Knowledges';
@@ -11,15 +11,16 @@ import NotFound from './pages/NotFound';
 const App = () => {
   return (
     <>
-    
+
       <BrowserRouter>
-        <Switch>
-          <Route path="/home" component={Home}/>
-          <Route path="/competences" component={Knowledges}/>
-          <Route path="/portfolio" component={Portfolio}/>
-          <Route path="/contact" component={Contact}/>
-          <Route component={NotFound}/>
-        </Switch>
+
+        <Routes>
+          <Route path="/" element={<Home />} Route />
+          <Route path="/competences" element={<Knowledges />} Route />
+          <Route path="/portfolio" element={<Portfolio />} Route />
+          <Route path="/contact" element={<Contact />} Route />
+          <Route path="*" element={<NotFound />} Route />
+        </Routes>
 
       </BrowserRouter>
     </>
