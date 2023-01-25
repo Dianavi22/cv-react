@@ -2,21 +2,18 @@ import React, { Component } from 'react';
 import { portfolioData } from '../../data/portfolioData';
 import Project from './Project';
 
-class ProjectList extends Component {
+class Paginnation extends Component {
 
     state = {
         projects: portfolioData,
         radios: [
-            { id: 1, value: "Page 1" },
-            { id: 2, value: "Page 2" },
-            { id: 3, value: "Page 3" },
-            { id: 4, value: "Unity" },
-            { id: 5, value: "Flutter" },
-            { id: 6, value: "Android" },
+            { id: 1, value: "Tous" },
+            { id: 2, value: "Android" },
+            { id: 3, value: "Flutter" },
+            { id: 5, value: "Unity" }
         ],
-        selectedRadio: 'Page 1'
+        selectedRadio: 'Tous'
     };
-
 
     handleRadio = (event) => {
         let radio = event.target.value;
@@ -62,5 +59,4 @@ class ProjectList extends Component {
         );
     }
 }
-
-export default ProjectList;
+export default Paginnation;
