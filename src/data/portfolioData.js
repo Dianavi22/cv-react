@@ -72,16 +72,16 @@ export const portfolioData = [
     picture: './media/project8.png'
   },
   {
-    id: 9,
+    id: 10,
     name: 'Projet FPS',
     languages: ['Unity', 'BDD', 'C#', 'Tous', 'Page 2'],
     languagesIcons: ['fa-brands fa-unity', 'fa-solid fa-code'],
     source: 'https://github.com/Dianavi22/FPS-test',
     info: 'Ce projet est un FPS qui peut se  jouer à plusieus, les joueurs incarnent des robots qui doivent se tirer dessus.',
-    picture: './media/project6.png'
+    picture: './media/project10.png'
   },
   {
-    id: 10,
+    id: 9,
     name: 'Netflop',
     languages: ['Swift', 'Mobile', 'Tous', 'Page 2'],
     languagesIcons: ['fa-brands fa-swift', 'fa-solid fa-code'],
@@ -123,6 +123,14 @@ export const portfolioData = [
     source: 'https://github.com/Dianavi22/conf-appli',
     info: 'Une application d\'organisation pour des conférences. On peut ajouter des évènents via un formulaire et de visualiser le planning de la conférence',
     picture: './media/project14.png'
+  }, {
+    id: 15,
+    name: 'Tower-defense',
+    languages: ['Page 3', 'Unity'],
+    languagesIcons: ['fa-brands fa-unity', 'fa-solid fa-code'],
+    source: 'https://github.com/Dianavi22/Tower-Defense-test',
+    info: 'un jeu tower defense dans lequel vous devez placer des turrels pour éliminer vos ennemis',
+    picture: './media/project15.png'
   },
 
 ]

@@ -1,6 +1,5 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-import Paginnation from '../components/portfolio/Paginnation';
 import ProjectList from '../components/portfolio/ProjectList';
 
 const Portfolio = () => {
@@ -8,7 +7,6 @@ const Portfolio = () => {
         <div className="portfolio">
             <Navigation />
             <ProjectList />
-
         </div>
     );
 };
