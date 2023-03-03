@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
-                    <img src="./media/jaja.jpeg" alt="profil-pic" />
+                    <img src="https://Dianavi22.github.io/cv-react/src/media/jaja.jpeg" alt="profil-pic" />
                     <h3>
                         Jade BOUIGES
                     </h3>
@@ -19,7 +19,7 @@ const Navigation = () => {
             <div className="navigation">
                 <ul>
                     <li>
-                        <NavLink exact to="/" activeClassName="navActive">
+                        <NavLink exact to="/cv-react" activeClassName="navActive">
                             <i className="fas fa-home"></i>
                             <span>Accueil</span>
                         </NavLink>
