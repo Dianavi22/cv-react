@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
-                    <img src="https://Dianavi22.github.io/cv-react/src/media/jaja.jpeg" alt="profil-pic" />
+                    <img src="https://dianavi22.github.io/cv-react/src/media/jaja.jpeg" alt="profil-pic" />
                     <h3>
                         Jade BOUIGES
                     </h3>

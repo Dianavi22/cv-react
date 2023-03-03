@@ -10,7 +10,7 @@ const Home = () => {
                     <h1>Jade BOUIGES</h1>
                     <h2>Apprentie développeuse</h2>
                     <div className="pdf">
-                        <a href="https://Dianavi22.github.io/cv-react/src/media/CV.pdf" target="_blank">Télécharger CV</a>
+                        <a href="https://dianavi22.github.io/cv-react/src/media/CV.pdf" target="_blank">Télécharger CV</a>
                     </div>
                 </div>
             </div>
