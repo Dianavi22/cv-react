@@ -2,20 +2,18 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
+
 const Navigation = () => {
     return (
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
-                    <img src="https://dianavi22.github.io/cv-react/src/media/jaja.jpeg" alt="profil-pic" />
+                    <img src={require("../media/jaja.jpeg")} alt="profil-pic" />
                     <h3>
                         Jade BOUIGES
                     </h3>
                 </div>
             </div>
-
-
-
             <div className="navigation">
                 <ul>
                     <li>
@@ -58,7 +56,7 @@ const Navigation = () => {
                         </CopyToClipboard>
                     </li>
                     <li>
-                        <a href="./media/CV.pdf" target="blank" rel="noopener noreferrer"><i className="fa-solid fa-file-pdf"></i></a>
+                        <a href={require("../media/CV.pdf")} target="blank" rel="noopener noreferrer"><i className="fa-solid fa-file-pdf"></i></a>
                     </li>
                 </ul>
                 <div className="signature">
