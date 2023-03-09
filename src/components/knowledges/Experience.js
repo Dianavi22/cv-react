@@ -17,12 +17,7 @@ const Experience = () => {
                 <p>Lors de mon alternance chez spie batignolles j'avais 2 missions principales : la programmation du site web (<a href="https://www.spiebatignollesimmobilier.fr/" target="_blank">spiebatignollesimmobilier.fr</a>) et de son back office en C#, HTML/CSS, et la base de données en SQL ainsi que toute la gestion ds demandes d'ajout de fonctionnalités et de résolution de bugs. Et la gestion des comptes pour l'outil DocuSign, ainsi qu la formation des diférents utilisateurs.</p>
 
             </div>
-            <div className="exp-3">
-                <h4>Standardiste - Office notariale de Sannois</h4>
-                <h5>2019</h5>
-                <p>En tant que standardiste, je devais principallement m'occuper de la clientelle : recevoir les clients, répondre aux appels, transférr les mails, ... Mais je devais aussi trier le courrier et orienter les différentes devmandes vers les services appropriés.</p>
 
-            </div>
         </div>
     );
 };

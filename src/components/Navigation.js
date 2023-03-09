@@ -60,7 +60,7 @@ const Navigation = () => {
                     </li>
                 </ul>
                 <div className="signature">
-                    <p>Kirbo - 2022
+                    <p>Kirbo - 2023
                     </p>
                 </div>
             </div>
