@@ -132,5 +132,14 @@ export const portfolioData = [
     info: 'un jeu tower defense dans lequel vous devez placer des turrels pour éliminer vos ennemis',
     picture: require("../media/project15.png")
   },
+  {
+    id: 16,
+    name: 'SendNood.exe',
+    languages: ['Page 3', 'Unity'],
+    languagesIcons: ['fa-brands fa-unity', 'fa-solid fa-code'],
+    source: 'https://github.com/Dianavi22/SendNood.exe',
+    info: 'Un jeu fait au cours de la Ludum dare 53, sur le thème de la livraison. On dirige une enveloppe vers son destinataire en évitant les ennemis',
+    picture: require("../media/project15.png")
+  },
 
 ]

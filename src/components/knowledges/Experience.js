@@ -14,7 +14,7 @@ const Experience = () => {
             <div className="exp-2">
                 <h4>Apprentie développeuse - Spie batignolles</h4>
                 <h5>2019 - 2021</h5>
-                <p>Lors de mon alternance chez spie batignolles j'avais 2 missions principales : la programmation du site web (<a href="https://www.spiebatignollesimmobilier.fr/" target="_blank">spiebatignollesimmobilier.fr</a>) et de son back office en C#, HTML/CSS, et la base de données en SQL ainsi que toute la gestion ds demandes d'ajout de fonctionnalités et de résolution de bugs. Et la gestion des comptes pour l'outil DocuSign, ainsi qu la formation des diférents utilisateurs.</p>
+                <p>Lors de mon alternance chez spie batignolles j'avais 2 missions principales : la programmation du site web (spiebatignollesimmobilier.fr) et de son back office en C#, HTML/CSS, et la base de données en SQL ainsi que toute la gestion de demandes d'ajout de fonctionnalités et de résolution de bugs. Et la gestion des comptes pour l'outil DocuSign, ainsi que la formation des différents utilisateurs.</p>
 
             </div>
 
